@@ -15,5 +15,11 @@ namespace Angular.NET_Core.Controllers
         {
             return new string[] { "Didn't", "believe", "it", "right??" };
         }
+
+        [HttpGet]
+        public IEnumerable<string> Get2()
+        {
+            return new string[] { "Didn't", "believe", "it", "right??" };
+        }
     }
 }
